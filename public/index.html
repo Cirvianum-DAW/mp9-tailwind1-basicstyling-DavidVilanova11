@@ -3,39 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/styles.css">
     <title>Tailwind Showcase</title>
   </head>
   <body>
     <div class="container mx-auto py-8">
       <h1>Tailwind Showcase</h1>
-      <div>
+      <div class="bg-slate-50 p-2 m-2 to-100%">
         <h2>Colors and Backgrounds</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="flex">
+          <div class="bg-slate-50 border flex-grow"></div>
+          <div class="w-20 h-10 bg-red-100 border border-red-400 flex-grow"></div>
+          <div class="bg-yellow-100 border border-yellow-400 flex-grow"></div>
+          <div class="bg-green-100 border border-green-400 flex-grow"></div>
         </div>
       </div>
       <div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="flex p-2 m-2">
+          <div class="w-20 h-10 bg-slate-50 border"></div>
+          <div class="w-20 h-10 bg-slate-100 border"></div>
+          <div class="w-20 h-10 bg-slate-300 border"></div>
+          <div class="w-20 h-10 bg-slate-400 border"></div>
         </div>
       </div>
       <div>
         <h2>Text</h2>
-        <p>This is a small text.</p>
-        <p>This is a base text.</p>
-        <p>This is a large text.</p>
-        <p>This is an extra large text.</p>
-        <p>This is a 3x extra large text.</p>
-        <p>This is a 4x extra large text.</p>
-        <p>This is a 5x extra large text.</p>
-        <p>This is a 8x extra large text.</p>
-        <p>This is a 9x extra large text.</p>
+        <p class="text-sm">This is a small text.</p>
+        <p class="text-base">This is a base text.</p>
+        <p class="text-lg">This is a large text.</p>
+        <p class="text-xl">This is an extra large text.</p>
+        <p class="text-3xl">This is a 3x extra large text.</p>
+        <p class="text-4xl">This is a 4x extra large text.</p>
+        <p class="text-5xl">This is a 5x extra large text.</p>
+        <p class="text-8xl">This is a 8x extra large text.</p>
+        <p class="text-9xl">This is a 9x extra large text.</p>
       </div>
       <div>
         <h2>Text Decoration</h2>
