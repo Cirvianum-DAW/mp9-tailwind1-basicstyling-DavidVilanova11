@@ -8,26 +8,26 @@
   </head>
   <body>
     <div class="container mx-auto py-8">
-      <h1>Tailwind Showcase</h1>
-      <div class="bg-slate-50 p-2 m-2 to-100%">
-        <h2>Colors and Backgrounds</h2>
+      <b class="text-lg"><h1>Tailwind Showcase</h1></b>
+      <div class="bg-slate-50 p-2 m-2">
+        <b><h2 class="m-2">Colors and Backgrounds</h2></b>
         <div class="flex">
-          <div class="bg-slate-50 border flex-grow"></div>
-          <div class="w-20 h-10 bg-red-100 border border-red-400 flex-grow"></div>
+          <div class=" h-20 bg-slate-50 border flex-grow"></div>
+          <div class="bg-red-100 border border-red-400 flex-grow"></div>
           <div class="bg-yellow-100 border border-yellow-400 flex-grow"></div>
           <div class="bg-green-100 border border-green-400 flex-grow"></div>
         </div>
       </div>
-      <div>
-        <div class="flex p-2 m-2">
-          <div class="w-20 h-10 bg-slate-50 border"></div>
-          <div class="w-20 h-10 bg-slate-100 border"></div>
-          <div class="w-20 h-10 bg-slate-300 border"></div>
-          <div class="w-20 h-10 bg-slate-400 border"></div>
+      <div class="bg-slate-50 p-2 m-2">
+        <div class="flex">
+          <div class="h-20 flex-grow bg-slate-50 border"></div>
+          <div class="flex-grow bg-slate-100 border"></div>
+          <div class="flex-grow bg-slate-300 border"></div>
+          <div class="flex-grow bg-slate-400 border"></div>
         </div>
       </div>
-      <div>
-        <h2>Text</h2>
+      <div class="bg-slate-50 p-2 m-2">
+        <b><h2>Text</h2></b>
         <p class="text-sm">This is a small text.</p>
         <p class="text-base">This is a base text.</p>
         <p class="text-lg">This is a large text.</p>
@@ -38,42 +38,42 @@
         <p class="text-8xl">This is a 8x extra large text.</p>
         <p class="text-9xl">This is a 9x extra large text.</p>
       </div>
-      <div>
-        <h2>Text Decoration</h2>
-        <p>This is an underlined text.</p>
-        <p>This is a line-through text.</p>
-        <p>This is an underlined and line-through text.</p>
+      <div class="bg-slate-50 p-2 m-2 mt-4">
+        <b><h2 class="mb-2 mt-2">Text Decoration</h2></b>
+        <p class="underline mb-2">This is an underlined text.</p>
+        <p class="line-through mb-2">This is a line-through text.</p>
+        <p class="underline line-through mb-2">This is an underlined and line-through text.</p>
       </div>
-      <div>
-        <h2>Text Alignment</h2>
-        <p>This is a left-aligned text.</p>
-        <p>This is a center-aligned text.</p>
-        <p>This is a right-aligned text.</p>
+      <div class="bg-slate-50 p-2 m-2 mt-4">
+        <b><h2 class="mb-2">Text Alignment</h2></b>
+        <p class="text-left mb-2">This is a left-aligned text.</p>
+        <p class="text-center mb-2">This is a center-aligned text.</p>
+        <p class="text-right mb-2">This is a right-aligned text.</p>
       </div>
-      <div>
-        <h2>Sizes</h2>
-        <div>
-          <div>XS</div>
-          <div>SM</div>
-          <div>BASE</div>
-          <div>LG</div>
+      <div class="bg-slate-50 p-2 m-2 mt-4">
+        <b><h2>Sizes</h2></b>
+        <div class="flex items-center">
+          <div class="bg-slate-50 border w-20 h-20 text-xs flex-grow flex items-center justify-center">XS</div>
+          <div class="bg-slate-100 border w-20 h-20 text-sm flex-grow flex items-center justify-center">SM</div>
+          <div class="bg-slate-300 border w-20 h-20 text-base flex-grow flex items-center justify-center">BASE</div>
+          <div class="bg-slate-500 border w-20 h-20 text-lg flex-grow flex items-center justify-center">LG</div>
         </div>
       </div>
-      <div>
-        <h2>Borders</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="bg-slate-50 p-2 m-2 mt-4">
+        <b><h2>Borders</h2></b>
+        <div class="bg-slate-50 pb-2 flex">
+          <div class="bg-slate-50 border w-20 h-20 flex-grow"></div>
+          <div class="bg-slate-100 border w-20 h-20 flex-grow rounded"></div>
+          <div class="bg-slate-300 border w-20 h-20 flex-grow rounded-md"></div>
+          <div class="bg-slate-500 border w-20 h-20 flex-grow rounded-full m"></div>
         </div>
       </div>
-      <div>
-        <div>
-          <h2>Margin</h2>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="mt-4 m-2 bg-slate-50">
+        <div class="m-2">
+          <b><h2>Margin</h2></b>
+          <div class="m-16 border bg-slate-100 border-gray-400">This div has margin of 1.5rem on all slides.</div>
+          <div class="mr-1.5 border bg-slate-100 border-gray-400">This div has  a horizontal margin of 1.5rem and vertical margin of 3rem</div>
+          <div class="bg-slate-100 border border-gray-400 mtr-1">This div has a margin of 1rem at the top, 2rem on the right 3rem ion the bottom, an 4 rem on the left</div>
         </div>
         <div>
           <h2>Padding</h2>
