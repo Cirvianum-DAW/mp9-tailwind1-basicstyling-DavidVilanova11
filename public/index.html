@@ -70,47 +70,50 @@
       </div>
       <div class="mt-4 m-2 bg-slate-50">
         <div class="m-2">
-          <b><h2>Margin</h2></b>
-          <div class="m-16 border bg-slate-50 border-gray-400">This div has margin of 1.5rem on all slides.</div>
-          <div class="m-16 border bg-slate-300 border-gray-400">This div has  a horizontal margin of 1.5rem and vertical margin of 3rem</div>
-          <div class="ml-32 bg-slate-500 border border-gray-400 mtr-1">This div has a margin of 1rem at the top, 2rem on the right 3rem ion the bottom, an 4 rem on the left</div>
+          <b><h2 class="">Margin</h2></b>
+          <div class="m-6 border bg-slate-100 border-gray-400">This div has margin of 1.5rem on all slides.</div>
+          <div class="ml-6 mr-6 mt-12 mb-12 border bg-slate-300 border-gray-400">This div has  a horizontal margin of 1.5rem and vertical margin of 3rem.</div>
+          <div class="ml-16 mb-12 mr-8 mt-4 bg-slate-500 border border-gray-400 mtr-1">This div has a margin of 1rem at the top, 2rem on the right 3rem ion the bottom, an 4 rem on the left.</div>
         </div>
-        <div>
-          <h2>Padding</h2>
-          <div></div>
-          <div></div>
-          <div></div>
+        <!-- https://tailwindremconverter.netlify.app/ (4 equival a 16 pc (1rem))-->
+        <div class="mt-4 m-2 m4-2 bg-slate-50">
+          <b><h2 class="">Padding</h2></b>
+          <div class="p-6 bg-slate-100 border">This div has a padding of 1.5rem on all sides.</div>
+          <div class="pl-6 pt-6 pb-6 bg-slate-300 border">This div has a horizontal padding of 1.5 and vertical of 3.</div>
+          <div class="pl-16 pb-12 pr-8 pt-4 bg-slate-500 border">This div has a padding of 1 on the top, 2 on the right, 3 on the bottom and 4 on the left.</div>
         </div>
-        <div>
-          <h2>Card 1</h2>
-          <div>
-            <img
+        <div class="m-2 mt-6">
+          <b><h2>Card 1</h2></b>
+          <div class="border rounded-md h-80">
+            <img class="m-2"
               src="https://via.placeholder.com/300x200"
               alt="Placeholder image"
             />
-            <h3>Card Title</h3>
-            <p>This is a basic card example with an image and no flex.</p>
-            <a href="#">Button</a>
+            <b><h3 class="m-2">Card Title</h3></b>
+            <p class="m-2 mb-2">This is a basic card example with an image and no flex.</p>
+            <!-- https://v1.tailwindcss.com/components/buttons -->
+            <a class="m-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="#">Button</a>
+            </style> 
           </div>
         </div>
-        <div>
-          <h2>Card 2</h2>
-          <div>
-            <h3>Card Title</h3>
-            <p>This is a basic card example with no image and no flex.</p>
-            <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
+        <div class="m-2 mt-6">
+          <b><h2 class="mb-2">Card 2</h2></b>
+          <div class="border rounded-md h-60">
+            <b><h3 class="m-2">Card Title</h3></b>
+            <p class="m-2">This is a basic card example with no image and no flex.</p>
+            <ul class="m-8">
+              <li class="list-disc">Item 1</li>
+              <li class="list-disc">Item 2</li>
+              <li class="list-disc">Item 3</li>
             </ul>
-            <a href="#">Button</a>
+            <a class="m-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" href="#">Button</a>
           </div>
         </div>
-        <div>
-          <h2>Buttons</h2>
-          <button>Button 1</button>
-          <button>Button 2</button>
-          <button>Button 3</button>
+        <div class="m-2 mt-6">
+          <b><h2 class="mb-2">Buttons</h2></b>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Button 1</button>
+          <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">Button 2</button>
+          <button class=" bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-md">Button 3</button>
         </div>
       </div>
     </div>
